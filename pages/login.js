@@ -42,11 +42,11 @@ export default function Login() {
               <form>
                 <div className="space-y-6">
                   <div>
-                    <label For="email" className="mb-2 block text-sm font-semibold text-gray-900">Email address</label>
+                    <label className="mb-2 block text-sm font-semibold text-gray-900">Email address</label>
                     <input id="email" type="email" name="email" autoComplete="email" required className="block w-full appearance-none rounded-lg border border-gray-200 bg-white py-[calc(theme(spacing.2)-1px)] px-[calc(theme(spacing.3)-1px)] text-gray-900 placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm"></input>
                   </div>
                   <div>
-                    <label For="password" className="mb-2 block text-sm font-semibold text-gray-900">Password</label>
+                    <label className="mb-2 block text-sm font-semibold text-gray-900">Password</label>
                     <input id="password" type="password" name="password" autoComplete="current-password" required className="block w-full appearance-none rounded-lg border border-gray-200 bg-white py-[calc(theme(spacing.2)-1px)] px-[calc(theme(spacing.3)-1px)] text-gray-900 placeholder:text-gray-400 focus:border-blue-500 focus:outline-none focus:ring-blue-500 sm:text-sm"></input>
                   </div>
                 </div>
