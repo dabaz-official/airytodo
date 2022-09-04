@@ -31,7 +31,7 @@ export default function Login() {
               </h1>
               <p className="mt-3 text-center text-lg text-gray-600">
                 Already registered?{" "}
-                <Link href="/register">
+                <Link href="/login">
                   <a className="text-blue-600">
                     Sign in
                   </a>
